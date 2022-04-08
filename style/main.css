@@ -119,6 +119,128 @@
 
 .galary-icons > .active {
     background-color: white;
+    
+    
+    
+    
+    /* contact page*/
+
+.name-input, .email-input, .subject-input, .message-input{
+    outline: none;
+    font-size: 20px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 6%;
+    border-bottom: 5px solid #616161;
+    max-width: 180px;
+    padding-bottom: 16px;
+}
+
+.title-div{
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    margin-top: 2%;
+    margin-left: 12%;
+}
+
+.name-input{
+    padding-right: 67%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.email{
+    margin-top: 1%;
+    margin-left: 12%; 
+}
+
+.email-input{
+    padding-right: 67%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.subject{
+    margin-top: 1%;
+    margin-left: 12%; 
+}
+
+.subject-input{
+    padding-right: 67%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.message{
+    margin-top: 1%;
+    margin-left: 12%; 
+}
+
+.message-input{
+    padding-right: 67%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.send{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.send-button{
+    color: blanchedalmond;
+    background-color: black;
+    border: none;
+    padding: 1% 37%;
+    font-size: 18px;
+}
+
+.send-button:hover{
+    color: black;
+    background-color: #b3b1b1;
+}
+
+@media (max-width: 1080px){
+    .name-input,.email-input,.subject-input,.message-input{
+        padding-right: 60%;
+    }
+}
+
+@media (max-width: 930px){
+    .name-input,.email-input,.subject-input,.message-input{
+        padding-right: 52%;
+    }
+}
+
+@media (max-width: 680px){
+    .name-input,.email-input,.subject-input,.message-input{
+        padding-right: 42%;
+    }
+    .send-button{
+        margin-top: 3%;
+    }
+}
+
+@media (max-width: 550px){
+    .name-input,.email-input,.subject-input,.message-input{
+        padding-right: 28%;
+    }
+}
+
+@media (max-width: 400px){
+    .name-input,.email-input,.subject-input,.message-input{
+        padding-right: 14%;
+    }
+}
+
+/* end contact page */
+
 }
 
 /* End First sec */
