@@ -173,6 +173,147 @@
     text-transform: capitalize;
 }
 /* End What we offer */
+
+/* start section p-Plans */
+
+.Pricing{
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    font-family: "Lato", sans-serif;
+}
+.p-Plans .Pricing h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.p-Plans .Pricing p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.B-P-P{
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+.Basic{
+    width: 94%;
+    margin: auto 1.5% auto 3%;
+    list-style: none;
+    margin-bottom: 80px;
+}
+.Basic:hover{
+    box-shadow: 3px 3px 3px 3px #868585;
+}
+.B-a-s-i-c{
+    background-color: #000;
+    height: 100px;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 38px;
+}
+.B-a-s-i-c-1{
+    background-color: #616161;
+    height: 100px;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 38px;
+}
+.li-ul-4{
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.li-ul-5{
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #f1f1f1;
+}
+.li-ul-4 h1{
+    padding-bottom: 20px;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.li-ul-5 h1{
+    padding-bottom: 20px;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.button-1{
+    margin: 10px 0 10px 0;
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+}
+.button-1:hover{
+    color: #000;
+    background-color: #ccc;
+}
+
+/* start section p-Plans *
+
+/* start @media section p-Plans */
+    /* mopil */
+    @media (min-width: 320px) and (max-width: 480px){
+    .Basic{
+        margin-bottom: 20px;
+    }
+    }
+    @media (min-width: 480px) and (max-width: 600px){
+        .Basic{
+            margin-bottom: 20px;
+        }
+    }
+    @media (min-width: 600px) and (max-width: 800px){
+        .Basic{
+            margin-bottom: 20px;
+        }
+        .B-P-P{
+            margin-bottom: 80px;
+        }
+    }
+    /* small screen */
+    @media (min-width: 767px){
+        .Basic{
+            margin-bottom: 80px;
+        }
+    }
+    @media (min-width: 768px) {
+        .B-P-P{
+            display: flex;
+            width: 97%;
+            margin: 0 2% 0 1%; 
+        }
+    }
+    /* mudim screen */
+    @media (min-width: 992px){
+        .B-P-P{
+        width: 97%;
+        margin: 0 2% 0 1%;
+    }
+    }
+    /* larg screen */
+    @media (min-width: 1200px){
+        .B-P-P{
+            width: 84%;
+            margin: 0 8% 0 8%;   
+        }
+    }
+    
+    /* end @media section p-Plans */
+
 /* What we offer start */
 @media (max-width:768px){
     .Offer-text{
