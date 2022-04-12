@@ -422,6 +422,110 @@
          padding-top:0px !important;
 }
 }
+/* contact page*/
+.Contact {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-input,
+.email-input,
+.subject-input,
+.message-input {
+    outline: none;
+    font-size: 17px;
+}
+
+.heading-name,
+.heading-email,
+.heading-subject,
+.heading-message {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin-top: 5%;
+    border-bottom: 5px solid #616161;
+    max-width: 180px;
+    padding-bottom: 16px;
+}
+
+.title-div {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    margin-top: 4%;
+    width: 100%;
+}
+
+.name-input {
+    padding-top: 0.5%;
+    padding-bottom: 0.8%;
+    width: 100%;
+}
+
+.email {
+    margin-top: 1%;
+    width: 100%;
+}
+
+.email-input {
+    padding-top: 0.5%;
+    padding-bottom: 0.8%;
+    width: 100%;
+}
+
+.subject {
+    margin-top: 1%;
+    width: 100%;
+}
+
+.subject-input {
+    width: 100%;
+    padding-top: 0.5%;
+    padding-bottom: 0.8%;
+}
+
+.message {
+    margin-top: 1%;
+    width: 100%;
+}
+
+.message-input {
+    width: 100%;
+    padding-top: 0.5%;
+    padding-bottom: 0.8%;
+}
+
+.send {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.send-button {
+    color: blanchedalmond;
+    background-color: black;
+    border: none;
+    padding: 0.7% 37%;
+    font-size: 15px;
+    width: 100%;
+}
+
+.send-button:hover {
+    color: black;
+    background-color: #b3b1b1;
+}
+
+
+
+/* end contact page */
 /* Footer */
 footer{
     padding: 40px 10px 50px;
