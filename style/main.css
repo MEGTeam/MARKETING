@@ -414,9 +414,14 @@
     }
 }
 /*the end of who we are*/
-
-
-
+@media (max-width:600px){
+    .ll{
+    margin-top: 45px;
+    }
+     .Pricing{
+         padding-top:0px !important;
+}
+}
 /* Footer */
 footer{
     padding: 40px 10px 50px;
