@@ -49,3 +49,17 @@ FORWARD.addEventListener("click", () => {
         MYICONS[counter + 1].click();
     }
 });
+
+
+
+const BUTTON =document.querySelector("footer button");
+
+BUTTON.addEventListener("click" , () => {
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+})
+
+
